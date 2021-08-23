@@ -1,0 +1,16 @@
+.header{
+  background: gray;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__menu{
+    display: flex;
+  }
+  &__link{
+    margin-right: 25px;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
